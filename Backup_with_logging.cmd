@@ -35,13 +35,13 @@
 :: Carry on.
 
 :: Sets where your backups will be stored while the routine runs
-set backuppath=\\place_server_name_here\winsvrbackups\
+set backuppath=\\place_destination_server_name_here\place_share_name_here\
 
 :: This sets the log path and if it doesn't exist it will be created
 :: You can make this anything you like.
 
-set backuplogpath=%programdata%\2k_backup_log\
-if not exist %programdata%\2k_backup_log\ md %programdata%\2k_backup_log\
+set backuplogpath=%programdata%\backup_log\
+if not exist %backuplogpath% md %backuplogpath%
 
 :: Sets where your backups will be moved to after the routine ends
 :: If it doesn't exist it will be created
