@@ -4,7 +4,7 @@
 ::
 :: Written by Cameron Snyder - 2k@rogueangel2k.com
 :: You may modify this file as you see fit but
-:: leave this credit block in tact please.
+:: leave this credit block intact please.
 ::
 :: Inspiration for my projects are due to my
 :: supportive wife, without whom my dreams would
