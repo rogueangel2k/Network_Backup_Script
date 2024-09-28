@@ -52,6 +52,8 @@ if not exist %restingplace% md %restingplace%
 :: *** Main script begins **
 
 :: Begin Date and Time Formatting
+:: I borrowed this from somewhere online and adapted it my liking.
+:: I honestly do remember where. If I find it again in the future, I'll add credit.
 
 SET HOUR=%time:~0,2%
 SET dtStamp9=%date:~-4%%date:~4,2%%date:~7,2%_0%time:~1,1%%time:~3,2%%time:~6,2% 
