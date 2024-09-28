@@ -52,7 +52,7 @@ if not exist %restingplace% md %restingplace%
 :: *** Main script begins **
 
 :: Begin Date and Time Formatting
-:: I borrowed this from somewhere online and adapted it my liking.
+:: I borrowed this from somewhere online and adapted it to my liking.
 :: I honestly do remember where. If I find it again in the future, I'll add credit.
 
 SET HOUR=%time:~0,2%
